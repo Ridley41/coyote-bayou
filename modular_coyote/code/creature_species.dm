@@ -1189,8 +1189,7 @@
 /datum/species/feral/mecha
 	roundstart = FALSE //This is just the parent type, don't let players actually select it.
 	liked_food = MEAT | RAW
-	icon_dead_suffix = "_broken"
-	icon_rest_suffix = "_broken"
+	icon_dead_suffix = "-broken"
 	simple_icon = 'icons/mecha/mecha.dmi'
 	icon_width = 32
 	footstep_type = FOOTSTEP_MOB_HEAVY
@@ -1201,3 +1200,108 @@
 	roundstart = TRUE
 /mob/living/carbon/human/species/gygax
 	race = /datum/species/feral/mecha/gygax
+
+/datum/species/feral/mecha/honker
+	name = "Honker"
+	id = "honker"
+	roundstart = TRUE
+/mob/living/carbon/human/species/honker
+	race = /datum/species/feral/mecha/honker
+
+/datum/species/feral/mecha/reticence
+	name = "Reticence"
+	id = "reticence"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/reticence
+	race = /datum/species/feral/mecha/reticence
+
+/datum/species/feral/mecha/ripley
+	name = "Ripley"
+	id = "ripley"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/ripley
+	race = /datum/species/feral/mecha/ripley
+
+/datum/species/feral/mecha/marauder
+	name = "Marauder"
+	id = "marauder"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/marauder
+	race = /datum/species/feral/mecha/marauder
+
+/datum/species/feral/mecha/seraph
+	name = "Seraph"
+	id = "seraph"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/seraph
+	race = /datum/species/feral/mecha/seraph
+
+/datum/species/feral/mecha/phazon
+	name = "Phazon"
+	id = "phazon"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/phazon
+	race = /datum/species/feral/mecha/phazon
+
+/datum/species/feral/mecha/mauler
+	name = "Mauler"
+	id = "mauler"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/mauler
+	race = /datum/species/feral/mecha/mauler
+
+/datum/species/feral/mecha/odysseus
+	name = "Odysseus"
+	id = "odysseus"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/odysseus
+	race = /datum/species/feral/mecha/odysseus
+
+/datum/species/feral/mecha/firefighter
+	name = "Firefighter"
+	id = "firefighter"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/firefighter
+	race = /datum/feral/mecha/firefighter
+
+/datum/species/feral/mecha/deathripley
+	name = "Death Ripley"
+	id = "deathripley"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/deathripley
+	race = /datum/species/feral/mecha/deathripley
+
+/datum/species/feral/mecha/durand
+	name = "Durand"
+	id = "durand"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/durand
+	race = /datum/species/feral/mecha/durand
+
+/datum/species/feral/mecha/darkhonker
+	name = "Dark Honker"
+	id = "darkhonker"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/darkhonker
+	race = /datum/species/feral/mecha/darkhonker
+
+/datum/species/feral/mecha/darkgygax
+	name = "Dark Gygax"
+	id = "darkgygax"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/darkgygax
+	race = /datum/species/feral/mecha/darkgygax
+
+/datum/species/feral/mecha/clarke
+	name = "Clarke"
+	id = "clarke"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/clarke
+	race = /datum/species/feral/mecha/clarke
+
+/datum/species/feral/mecha/medigax
+	name = "Medical Gygax"
+	id = "medigax"
+	roundstart = TRUE
+/mob/living/carbon/human/feral/mecha/medigax
+	race = /datum/species/feral/mecha/medigax
