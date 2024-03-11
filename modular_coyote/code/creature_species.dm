@@ -1171,3 +1171,20 @@
 	race = /datum/species/feral/deathclaw/queen
 
 //End Other//
+
+//Start Mecha//
+/datum/species/feral/mecha
+	roundstart = FALSE //This is just the parent type, don't let players actually select it.
+	liked_food = MEAT | RAW
+	icon_dead_suffix = "_broken"
+	icon_rest_suffix = "_broken"
+	simple_icon = 'icons/mecha/mecha.dmi'
+	icon_width = 32
+	footstep_type = FOOTSTEP_MOB_HEAVY
+
+/datum/species/feral/mecha/gygax
+	name = "Gygax"
+	id = "gygax"
+	roundstart = TRUE
+/mob/living/carbon/human/species/gygax
+	race = /datum/species/feral/mecha/gygax
