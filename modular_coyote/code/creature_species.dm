@@ -1190,6 +1190,7 @@
 	roundstart = FALSE //This is just the parent type, don't let players actually select it.
 	liked_food = MEAT | RAW
 	icon_dead_suffix = "-broken"
+	icon_rest_suffix = "-rest"
 	simple_icon = 'icons/mecha/mecha.dmi'
 	icon_width = 32
 	footstep_type = FOOTSTEP_MOB_HEAVY
