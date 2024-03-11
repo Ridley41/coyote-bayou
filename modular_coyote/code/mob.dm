@@ -760,12 +760,18 @@
 	icon_dead = "bat_dead"
 
 /mob/living/simple_animal/advanced/cat
-	name = "Cat"
+	name = "cat"
 	icon = 'icons/mob/pets.dmi'
 	icon_state = "cat2"
 	icon_living = "cat2"
 	icon_dead = "cat2_dead"
 
+/mob/living/simple_animal/advanced/bighorn
+	name = "bighorner"
+	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
+	icon_state = "bighorner"
+	icon_living = "bighorner"
+	icon_dead = "bighorner_dead"
 
 //More Virgo mobs
 //Big wolfs
@@ -860,6 +866,8 @@
 	icon_living = "gekko_tribe_villager"
 	icon_dead = "gekko_dead"
 
+
+ 
 /mob/living/simple_animal/advanced/gecko_leader
 	name = "gecko leader"
 	desc = "A large mutated reptile that has learned the basics of checks and balances."
@@ -1178,7 +1186,22 @@
 	icon_living = "deathclaw_queen"
 	icon_dead = "deathclaw_queen_dead"
 
+//splurt mobs
+/mob/living/simple_animal/advanced/femdigo
+	name = "Female Wendigo"
+	desc = "A curse, Or perhaps a blessing."
+	icon = 'icons/mob/wendigo.dmi'
+	icon_state = "femdigo"
+	icon_living = "femdigo"
+	icon_dead = "femdigo_dead"
 
+/mob/living/simple_animal/advanced/thicktron_s
+	name = "Modified Assaultron"
+	desc = "Why is it so thick?"
+	icon = 'icons/mob/splurtbot.dmi'
+	icon_state = "assaultronstandard"
+	icon_living = "assaultronstandard"
+	icon_dead = "assaultronstandard_dead"
 
 //End Advanced Mobs//
 

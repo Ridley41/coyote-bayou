@@ -524,7 +524,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	name = "NCR Lieutenant"
 	icon_state = "NCR Lieutenant"
 
-obj/effect/landmark/start/f13/ncrlogisticsofficer
+/obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "NCR Logistics Officer"
 	icon_state = "NCR Lieutenant"
 
@@ -913,7 +913,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Tribal"
 
 /obj/effect/landmark/start/f13/shaman
-	name = "Shaman"
+	name = "Spiritual Leader"
 	icon_state = "Tribal"
 
 /obj/effect/landmark/start/f13/villager
@@ -933,7 +933,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Tribal"
 
 /obj/effect/landmark/start/f13/druid
-	name = "Druid"
+	name = "Harvest Leader"
 	icon_state = "Tribal"
 
 /obj/effect/landmark/start/f13/spiritpledged

@@ -128,6 +128,7 @@ Tribal Chief
 		/obj/item/reagent_containers/pill/healingpowder = 2,
 		/obj/item/stack/medical/gauze = 1,
 		/obj/item/pda = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/card/id/selfassign,
 		/obj/item/kit_spawner/tribal = 1,
 		/obj/item/cool_book/chiefguide = 1
@@ -189,6 +190,7 @@ Tribal Shaman
 		/obj/item/smelling_salts/wayfarer=1,
 		/obj/item/reagent_containers/pill/patch/healpoultice=2,
 		/obj/item/pda = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/card/id/selfassign,
 		/obj/item/flashlight/lantern = 1,
 		/obj/item/book/granter/crafting_recipe/bitters = 1,
@@ -265,6 +267,7 @@ Tribal Hunt Master
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/healingpowder=2,
 		/obj/item/pda = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/card/id/selfassign,
 		/obj/item/stack/medical/gauze=1,
 		/obj/item/flashlight/lantern = 1,
@@ -334,6 +337,7 @@ Druid
 		/obj/item/reagent_containers/glass/mortar=1,
 		/obj/item/pestle=1,
 		/obj/item/pda = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/card/id/selfassign,
 		/obj/item/melee/onehanded/knife/ritualdagger=1,
 		/obj/item/reagent_containers/glass/primitive_chem_isolator=1,
@@ -461,8 +465,8 @@ Hunter
 	flag = F13HUNTER
 	department_flag = TRIBAL
 	faction = FACTION_TRIBE
-	total_positions = 5
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	exp_type = EXP_TYPE_TRIBAL
 	supervisors = "The chief and Hunt Master. Failing their appearance you fall back on the Spiritual Leader and Harvest Leader for task management."
 	enforces = "The ways of the Sulphur River spirits."
@@ -519,6 +523,7 @@ Hunter
 	backpack_contents = list(
 		/obj/item/storage/box/tools/ranching =1,
 		/obj/item/pda = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/card/id/selfassign,
 		/obj/item/cool_book/warriorguide = 1
 	)
@@ -559,8 +564,8 @@ Spirit-Pledged
 	flag = F13SPIRITPLEDGED
 	department_flag = TRIBAL
 	faction = FACTION_TRIBE
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = -1
+	spawn_positions = -1
 	exp_type = EXP_TYPE_TRIBAL
 	supervisors = "All other tribals."
 	description = "An outsider to the tribe, you have been welcomed in by their higher ups to learn more about the tribes way of life. Perhaps you will attempt to join the tribe, but its not a requirement."
@@ -589,6 +594,7 @@ Spirit-Pledged
 	belt = /obj/item/kit_spawner/tribal
 	backpack_contents = list(
 		/obj/item/pda = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/card/id/selfassign)
 
 /*
@@ -633,6 +639,7 @@ Guardian
 	id = /obj/item/card/id/tribetattoo
 	backpack_contents = list(
 		/obj/item/pda = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/card/id/selfassign,
 		/obj/item/reagent_containers/pill/healingpowder=2,
 		/obj/item/stack/medical/gauze=1,
@@ -645,8 +652,8 @@ Guardian
 	flag = F13VILLAGER
 	department_flag = TRIBAL | DEP_OASIS
 	faction = FACTION_TRIBE
-	total_positions = 10
-	spawn_positions = 10
+	total_positions = -1
+	spawn_positions = -1
 	exp_type = EXP_TYPE_TRIBAL
 	supervisors = "New Boston's laws and all tribe members aside from other villagers"
 	description = "A proud member of the Sulphur Bottom tribe, you do what needs to be done to ensure the survival of yourself and your people while following the laws of the tribe. While it is common to venture out into the wasteland, do not tread far or without informing your kin. You are also a citizen living in Nash. Treat your town with respect and make sure to follow the laws in place, as your premium status may be revoked if you are considered a danger to the populace. One of the local businesses may have work if you require funds."
@@ -687,7 +694,7 @@ Guardian
 	id = /obj/item/card/id/tribetattoo
 	backpack_contents = list(
 		/obj/item/pda = 1,
-		/obj/item/kit_spawner/tools = 1,
+		/obj/item/kit_spawner/tools,
 		/obj/item/cool_book/villagerguide = 1
 	)
 
